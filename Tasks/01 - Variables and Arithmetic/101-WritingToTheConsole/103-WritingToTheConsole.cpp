@@ -10,6 +10,11 @@ int main()
     printf("Hello Everyone. We are using C\nHow are things?\n");
     // TASK (a) - remove \n from the string above - what does this change? 
     
+    /* This my entry point  
+    Response to Task (a): Removing "\n" from the string will not add a new line after "C", 
+    so "How are things?" will be printed on the same line
+    */
+
     // ******************* Using printf placeholders *********************** 
     int age = 23;
     printf("My age is %d\n", age);
