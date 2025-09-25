@@ -1,5 +1,5 @@
-// 101-HelloWorld.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// 101-HelloWorld.cpp : This file contains the 'main' function. 
+// Program execution begins and ends there.
 
 //This is known as a "header file" - we will look at this later
 #include <stdio.h>
