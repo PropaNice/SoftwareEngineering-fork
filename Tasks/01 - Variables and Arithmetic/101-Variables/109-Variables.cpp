@@ -8,7 +8,22 @@ int main()
 	int age = 23;				// Integer
 	long bigNumber = 123456789;	// Long integer
 	long long veryBigNumber = 1LL << 30;	//2^30 - challenge (advanced), why have I put 1LL?
+	
+	/*
+	This is my entry point.
+	
+	LL means "long long integer, which allows us to specify 
+	a 64-bit integer which extends the range of a 9,223,372,036,854,775,807 
+	or as a unsigned integer this extends to 18,44,467,440,737,095,516,15
 
+	unsigned values return to 0 after exceeding this range and dont allow for negative values
+	signed values return to negative values after exceeding their max positive range
+
+	int 32-bit signed integer -2,147,483,648 to 2,147,483,647
+	short 16-bit signed integer range is -32,768 to 32,767
+	32-bit unsigned integer range is 0 to 4,294,967,295
+	16-bit unsigned integer range is 0 to 65,535
+	*/
 	printf("c=%d\n", c);
 	printf("year = %hd\n", year);
 	printf("age = %d\n", age);
