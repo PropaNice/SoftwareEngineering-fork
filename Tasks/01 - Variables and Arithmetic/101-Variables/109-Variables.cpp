@@ -5,7 +5,7 @@ int main()
 
 	char c = 88;				// Character (1 byte)
 	short year = 2023;			// Short integer
-	int age = 23;				// Integer
+	int age = 25;				// Integer
 	long bigNumber = 123456789;	// Long integer
 	long long veryBigNumber = 1LL << 30;	//2^30 - challenge (advanced), why have I put 1LL?
 	
