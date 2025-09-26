@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "C:/Users/ollyd/Documents/GitHub/SoftwareEngineering-fork/Tasks/09 - OOP Gui/01-HelloWorld"
+    "cmake.sourceDirectory": "C:/Users/ollyd/Documents/GitHub/SoftwareEngineering-fork/Tasks/09 - OOP Gui/01-HelloWorld",
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe"
 }
