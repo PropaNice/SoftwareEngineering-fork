@@ -29,8 +29,14 @@ int main()
 	//TASKS:
 
 	//Shift right by 1 and display
-
+	
+	//This my entry point
+	number >>= 1; 
+	displayAndCompare(number);
 
 	//Shift left by 1 and display
-
+	
+	//This my entry point
+	number <<= 1; 
+	displayAndCompare(number);
 }
