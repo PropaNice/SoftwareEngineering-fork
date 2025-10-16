@@ -1,4 +1,6 @@
+// N.B floats are 4 bytes, doubles are 8 bytes
 #include <iostream>
+#include <cstdint>
 using namespace std;
 
 int main()
@@ -43,15 +45,26 @@ int main()
     // **************************************************************************
 
     //Write task 1 solution here
-    int64_t sum = 0L;   //Result needs to be bigger than int to avoid overflow
-
+    uint64_t sum = 0L;   //Result needs to be bigger than int to avoid overflow
+    for (int n = 0; n < N; n++) {
+        sum += (long)nums[n];
+        printf("Adding element %d value %d to sum, new sum = %lld\n", n, nums[n], sum); 
+    }
+        printf("final sum = %lld\n", sum);
 
     // ***********************************************************************************************************************
     // TASK 2 - calculate the mean of all elements (this will be a fractional value) and display to 1 decimal place accuracy *
     // ***********************************************************************************************************************
+    // C version
+    float mean = (float)sum / (float)N;
+    printf("Mean = %.2f\n", mean);
+    
+    // C++ version
+    // more of a headache, but good to know.
+    cout.precision(1);
+    cout << "Mean = " << std::fixed << mean;
 
-    //Write task 2 solution here
-
+    
 }
 
 
