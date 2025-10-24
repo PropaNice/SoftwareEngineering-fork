@@ -45,14 +45,17 @@ int main()
 	printf("year = %d\n", year);
 
 	//Divide
-	age = 50;
+	age = 25;
 	age = age / 2;
-	printf("Half of 50 is %d\n", age);
-	 
+	printf("Half of 25 is %d\n", age);
+	
+	// remove comment as run this line, age = age / 0; 
+	// Division by 0 is will throw an unhandled exception error, as we cannot divded by 0 
+
 	//Divide and remainder
 	age = 51;
 	age = age / 2;
 	int remainder = age % 2;
-	printf("Half of 51 is %d, remainder %d\n", age, remainder);
+	printf("Half of 25 is %d, remainder %d\n", age, remainder);
 
 } 
